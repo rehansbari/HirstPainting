@@ -43,7 +43,9 @@ def horizontal():
 
 #Starting the program, setting initial coordinates for turtle and calibrating y-coordinate by 50 with each passthrough
 def start():
-        for _ in range(10):
+    global X_COORD
+    global Y_COORD
+    for _ in range(10):
         timmy.setx(X_COORD)
         timmy.sety(Y_COORD)
         horizontal()
